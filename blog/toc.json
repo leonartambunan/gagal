@@ -33,15 +33,15 @@
         "link": "https://ali77gh.github.io/PersianToolsWeb/"
     },
     {
-        "name": "Dioxus Motion 🚀",
-        "description": "A lightweight, cross-platform animation library for Dioxus, designed to bring smooth, flexible animations to your Rust web, desktop, and mobile applications.",
+        "name": "vproxy",
+        "description": "A high-performance HTTP/HTTPS/SOCKS5 proxy server.",
         "type": "Awesome",
-        "category": "Util",
+        "category": "App",
         "github": {
-            "username": "wheregmis",
-            "repo": "dioxus-motion"
+            "username": "0x676e67",
+            "repo": "vproxy"
         },
-        "link": "https://crates.io/crates/dioxus-motion"
+        "link": null
     },
     {
         "name": "HTML to RSX Converter",
