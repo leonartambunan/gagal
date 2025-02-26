@@ -44,46 +44,46 @@
         "link": null
     },
     {
-        "name": "HTML to RSX Converter",
-        "description": "Convert HTML to RSX for Dioxus. Using dioxus's own dioxus-rsx-rosetta. All credit goes to to the maintainers of Dioxus. This is just a web port of their cli convert feature.",
-        "type": "Awesome",
+        "name": "candle",
+        "description": "Minimalist ML framework for Rust.",
+        "type": "MadeWith",
         "category": "Util",
         "github": {
-            "username": "wheregmis",
-            "repo": "dioxus_html_rsx"
-        },
-        "link": "https://wheregmis.github.io/dioxus_html_rsx/"
-    },
-    {
-        "name": "dioxus-query",
-        "description": "Fully-typed, async, reusable state management and synchronization for Dioxus.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "marc2332",
-            "repo": "dioxus-query"
+            "username": "huggingface",
+            "repo": "candle"
         },
         "link": null
     },
     {
-        "name": "dioxus-cheatsheet",
-        "description": "Cheatsheet for Dioxus.",
+        "name": "ratatui",
+        "description": "A Rust crate for cooking up terminal user interfaces (TUIs)",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "ratatui",
+            "repo": "ratatui"
+        },
+        "link": null
+    },
+    {
+        "name": "dioxus",
+        "description": "Fullstack app framework for web, desktop, mobile, and more.",
         "type": "Awesome",
         "category": "Example",
         "github": {
-            "username": "marc2332",
-            "repo": "dioxus-cheatsheet"
+            "username": "DioxusLabs",
+            "repo": "dioxus"
         },
         "link": null
     },
     {
-        "name": "dioxus-sdk",
-        "description": "A library to provide abstractions to access common utilities when developing Dioxus applications.",
+        "name": "axum",
+        "description": "Ergonomic and modular web framework built with Tokio, Tower, and Hyper.",
         "type": "Awesome",
         "category": "Util",
         "github": {
-            "username": "DioxusLabs",
-            "repo": "sdk"
+            "username": "tokio-rs",
+            "repo": "axum"
         },
         "link": null
     },
