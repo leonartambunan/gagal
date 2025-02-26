@@ -1,25 +1,25 @@
 [
     {
-        "name": "daisy-rsx",
-        "description": "A Dioxus version of the Daisy UI components.",
+        "name": "aichat",
+        "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
         "type": "Awesome",
         "category": "Util",
         "github": {
-            "username": "bionic-gpt",
-            "repo": "daisy-rsx"
+            "username": "sigoden",
+            "repo": "aichat"
         },
         "link": null
     },
     {
-        "name": "Chap-App",
-        "description": "Web IDE for Chap programming language powered by dioxus (client side execution)",
+        "name": "RustScan",
+        "description": "🤖 The Modern Port Scanner 🤖",
         "type": "MadeWith",
-        "category": "App",
+        "category": "Security",
         "github": {
-            "username": "ali77gh",
-            "repo": "ChapApp"
+            "username": "RustScan",
+            "repo": "RustScan"
         },
-        "link": "https://ali77gh.github.io/ChapApp/"
+        "link": null
     },
     {
         "name": "PersianToolsWeb",
