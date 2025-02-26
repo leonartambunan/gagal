@@ -22,15 +22,15 @@
         "link": null
     },
     {
-        "name": "PersianToolsWeb",
-        "description": "Web GUI for rust-persian-tools library",
+        "name": "gdbgui",
+        "description": "Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.",
         "type": "MadeWith",
         "category": "App",
         "github": {
-            "username": "ali77gh",
-            "repo": "PersianToolsWeb"
+            "username": "cs01",
+            "repo": "gdbgui"
         },
-        "link": "https://ali77gh.github.io/PersianToolsWeb/"
+        "link": null
     },
     {
         "name": "vproxy",
