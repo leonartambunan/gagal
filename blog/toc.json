@@ -14,7 +14,7 @@
         "name": "RustScan",
         "description": "🤖 The Modern Port Scanner 🤖",
         "type": "MadeWith",
-        "category": "App",
+        "category": "Rust",
         "github": {
             "username": "RustScan",
             "repo": "RustScan"
@@ -24,8 +24,8 @@
     {
         "name": "gdbgui",
         "description": "Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.",
-        "type": "MadeWith",
-        "category": "App",
+        "type": "Awesome",
+        "category": "Rust",
         "github": {
             "username": "cs01",
             "repo": "gdbgui"
@@ -36,7 +36,7 @@
         "name": "vproxy",
         "description": "A high-performance HTTP/HTTPS/SOCKS5 proxy server.",
         "type": "Awesome",
-        "category": "App",
+        "category": "Rust",
         "github": {
             "username": "0x676e67",
             "repo": "vproxy"
@@ -58,7 +58,7 @@
         "name": "ratatui",
         "description": "A Rust crate for cooking up terminal user interfaces (TUIs)",
         "type": "Awesome",
-        "category": "Util",
+        "category": "Rust",
         "github": {
             "username": "ratatui",
             "repo": "ratatui"
@@ -68,8 +68,8 @@
     {
         "name": "kalousm",
         "description": "Fullstack app framework for web, desktop, mobile, and more.",
-        "type": "MadeWith",
-        "category": "Util",
+        "type": "Awesome",
+        "category": "Rust",
         "github": {
             "username": "floneum",
             "repo": "floneum"
@@ -80,7 +80,7 @@
         "name": "axum",
         "description": "Ergonomic and modular web framework built with Tokio, Tower, and Hyper.",
         "type": "Awesome",
-        "category": "Util",
+        "category": "Rust",
         "github": {
             "username": "tokio-rs",
             "repo": "axum"
@@ -91,7 +91,7 @@
         "name": "sozu",
         "description": "Sozu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust. It is awesome!",
         "type": "Awesome",
-        "category": "Proxy",
+        "category": "Rust",
         "github": {
             "username": "sozu-proxy",
             "repo": "sozu"
@@ -99,406 +99,28 @@
         "link": null
     },
    
-    {
-        "name": "dioxus-sortable",
-        "description": "Sortable tables for Dioxus.",
-        "type": "Awesome",
-        "category": "Components",
-        "github": {
-            "username": "feral-dot-io",
-            "repo": "dioxus-sortable"
-        },
-        "link": null
-    },
-    {
-        "name": "Deploy Dioxus to Vercel",
-        "description": "Deploy dioxus-web to Vercel.",
-        "type": "Awesome",
-        "category": "Deployment",
-        "github": {
-            "username": "lucifer1004",
-            "repo": "dioxus-vercel-demo"
-        },
-        "link": null
-    },
-    {
-        "name": "Nix template for Dioxus Desktop apps",
-        "description": "Project template based on Nix for developing Dioxus Desktop apps with support for macOS, NixOS and other Linuxes",
-        "type": "Awesome",
-        "category": "Deployment",
-        "github": {
-            "username": "srid",
-            "repo": "dioxus-desktop-template"
-        },
-        "link": null
-    },
-    {
-        "name": "NixOS Install Script",
-        "description": "Fetches necessary dependencies for running Dioxus in desktop mode when using the Nix package manager.",
-        "type": "Awesome",
-        "category": "Deployment",
-        "github": null,
-        "link": "https://gist.github.com/FruitieX/73afe3eb15da45e0e05d5c9cf5d318fc"
-    },
-    {
-        "name": "t5.rs",
-        "description": "Template for developing & deploying cross-platform apps with authentication, database integration and storage using Supabase.",
-        "type": "Awesome",
-        "category": "Deployment",
-        "github": {
-            "username": "albbus-stack",
-            "repo": "t5.rs"
-        },
-        "link": null
-    },
-    {
-        "name": "Golde",
-        "description": "Use Dioxus to execute JavaScript and get the result.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "mrxiaozhuox",
-            "repo": "golde"
-        },
-        "link": null
-    },
     
-    {
-        "name": "dioxus-websocket-hooks",
-        "description": "Dioxus hooks for websocket connections.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "FruitieX",
-            "repo": "dioxus-websocket-hooks"
-        },
-        "link": null
-    },
-    {
-        "name": "dioxus-helmet",
-        "description": "Place elements in the head tag of your document.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "saicu",
-            "repo": "dioxus-helmet"
-        },
-        "link": null
-    },
-    {
-        "name": "dioxus-layout",
-        "description": "Layout components for Dioxus.",
-        "type": "Awesome",
-        "category": "Components",
-        "github": null,
-        "link": "https://gitlab.com/MAlrusayni/dioxus-layout"
-    },
-    {
-        "name": "dioxus-free-icons",
-        "description": "Free icon components for Dioxus.",
-        "type": "Awesome",
-        "category": "Components",
-        "github": {
-            "username": "nissy-dev",
-            "repo": "dioxus-free-icons"
-        },
-        "link": null
-    },
-    {
-        "name": "dioxus-material-icons",
-        "description": "Material icons for Dioxus.",
-        "type": "Awesome",
-        "category": "Components",
-        "github": {
-            "username": "lennartkloock",
-            "repo": "dioxus-material-icons"
-        },
-        "link": null
-    },
-    {
-        "name": "Lucide Dioxus",
-        "description": "Dioxus port of Lucide, a beautiful & consistent icon toolkit made by the community.",
-        "type": "Awesome",
-        "category": "Components",
-        "github": {
-            "username": "RustForWeb",
-            "repo": "lucide"
-        },
-        "link": "https://lucide.rustforweb.org/frameworks/dioxus.html"
-    },
-    {
-        "name": "Lookbook",
-        "description": "UI preview framework for Dioxus.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "matthunz",
-            "repo": "lookbook"
-        },
-        "link": "https://dioxus-material-lookbook.netlify.app"
-    },
-    {
-        "name": "Uplink",
-        "description": "Secure, encrypted, P2P chat app.",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "satellite-im",
-            "repo": "uplink"
-        },
-        "link": null
-    },
-    {
-        "name": "Ambient",
-        "description": "Multiplayer game engine that runs in the browser",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "ambientrun",
-            "repo": "ambient"
-        },
-        "link": null
-    },
     {
         "name": "Bionic GPT",
         "description": "ChatGPT replacement with a focus on data confidentiality",
-        "type": "MadeWith",
-        "category": "App",
+        "type": "Awesome",
+        "category": "Rust",
         "github": {
             "username": "bionic-gpt",
             "repo": "bionic-gpt"
         },
         "link": null
     },
-    {
-        "name": "Ebou",
-        "description": "Cross platform Mastodon Client",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "terhechte",
-            "repo": "ebou"
-        },
-        "link": null
-    },
-    {
-        "name": "Cloak",
-        "description": "Secrets automation for developers",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "purton-tech",
-            "repo": "cloak"
-        },
-        "link": null
-    },
-    {
-        "name": "Freya editor",
-        "description": "Experimental code editor",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "marc2332",
-            "repo": "freya-editor"
-        },
-        "link": null
-    },
-    {
-        "name": "InterSpace",
-        "description": "The graphical interface pipeline visualized",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "erithax",
-            "repo": "interspace"
-        },
-        "link": null
-    },
-    {
-        "name": "Hemi",
-        "description": "Typing tutor for training hands separately",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "kualta",
-            "repo": "hemi"
-        },
-        "link": null
-    },
-    {
-        "name": "Dead-good HTML to RSX converter",
-        "description": "A minimalist HTML to RSX converter website",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "PurpleBooth",
-            "repo": "dead-good-html-to-rsx-converter-website"
-        },
-        "link": "https://dead-good-html-to-rsx-converter-web.shuttleapp.rs/"
-    },
-    {
-        "name": "dioxus-toast",
-        "description": "Add toast support for dioxus project.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "mrxiaozhuox",
-            "repo": "dioxus-toast"
-        },
-        "link": null
-    },
-    {
-        "name": "Text Adventure",
-        "description": "A text adventure game built with Dioxus web",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "spideyclick",
-            "repo": "dioxus-text-adventure"
-        },
-        "link": "https://text-adventure.spideyclick.net/"
-    },
+    
     {
         "name": "Floneum",
         "description": "A graph editor for local AI workflows",
         "type": "MadeWith",
-        "category": "App",
+        "category": "Rust",
         "github": {
             "username": "floneum",
             "repo": "floneum"
         },
         "link": "https://floneum.com/"
-    },
-    {
-        "name": "Dev Widgets",
-        "description": "Collection of useful conversions and widgets implemented as a portable Rust app",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "esimkowitz",
-            "repo": "dev-widgets"
-        },
-        "link": "https://widgets.fyi/"
-    },
-    {
-        "name": "dioxus-radio",
-        "description": "Fully-typed global state management with a topics subscription system for Dioxus.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "dioxus-community",
-            "repo": "dioxus-radio"
-        },
-        "link": null
-    },
-    {
-        "name": "modx",
-        "description": "A way to handle states with structs in Dioxus",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "tkr-sh",
-            "repo": "modx"
-        },
-        "link": "https://github.com/tkr-sh/modx"
-    },
-    {
-        "name": "dioxus-web-component",
-        "description": "Create your HTML custom elements (aka web components) with Dioxus.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "ilaborie",
-            "repo": "dioxus-web-component"
-        },
-        "link": null
-    },
-    {
-        "name": "dioxus-chessboard",
-        "description": "A chessboard component built with Dioxus.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "vnermolaev",
-            "repo": "dioxus-chessboard"
-        },
-        "link": null
-    },
-    {
-        "name": "dioxus-aws",
-        "description": "Tools for deploying Dioxus apps to AWS Serverless (AWS Lambda, S3, CloudFront, Route53).",
-        "type": "Awesome",
-        "category": "Deployment",
-        "github": {
-            "username": "hackartists",
-            "repo": "dioxus-aws"
-        },
-        "link": null
-    },
-    {
-        "name": "MyLife Timeline",
-        "description": "Visualize how you have spend your time up until now, reflecting on your mortality.",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "waozixyz",
-            "repo": "mylife"
-        },
-        "link": "https://mylife.waozi.xyz/"
-    },
-    {
-        "name": "SQLite File Format",
-        "description": "Visual representation of on-disk database file format used by all releases of SQLite since version 3.0.0.",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "torymur",
-            "repo": "sqlite-repr"
-        },
-        "link": "https://torymur.github.io/sqlite-repr/"
-    },
-    {
-        "name": "Freyr",
-        "description": "A UI components crate for Dioxus that aims to make building an app easier and beautiful.",
-        "type": "Awesome",
-        "category": "Components",
-        "github": {
-            "username": "cbdefontenay",
-            "repo": "freyr"
-        },
-        "link": "https://docs.rs/freyr/latest/freyr/"
-    },
-    {
-        "name": "dioxus-oauth",
-        "description": "Tools for OAuth2 authentication in Dioxus web.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "biyard",
-            "repo": "rust-sdk"
-        },
-        "link": "https://github.com/biyard/rust-sdk/tree/main/packages/dioxus-oauth"
-    },
-    {
-        "name": "Biyard Website",
-        "description": "Company website utilizes dioxus 0.6.0-alpha.2 and AWS serverless services with CI/CD",
-        "type": "MadeWith",
-        "category": "App",
-        "github": {
-            "username": "biyard",
-            "repo": "homepage"
-        },
-        "link": "https://biyard.co"
-    },
-    {
-        "name": "dioxus-translate",
-        "description": "Libraries for internalization on Dioxus",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "biyard",
-            "repo": "democrasee"
-        },
-        "link": "https://github.com/biyard/democrasee/tree/main/packages/dioxus-translate"
     }
 ]
