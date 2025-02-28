@@ -162,17 +162,7 @@
         },
         "link": null
     },
-    {
-        "name": "Freya",
-        "description": "A skia renderer for Dioxus.",
-        "type": "Awesome",
-        "category": "Renderer",
-        "github": {
-            "username": "marc2332",
-            "repo": "freya"
-        },
-        "link": null
-    },
+    
     {
         "name": "dioxus-websocket-hooks",
         "description": "Dioxus hooks for websocket connections.",
