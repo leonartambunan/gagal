@@ -66,13 +66,13 @@
         "link": null
     },
     {
-        "name": "dioxus",
+        "name": "kalousm",
         "description": "Fullstack app framework for web, desktop, mobile, and more.",
-        "type": "Awesome",
-        "category": "Example",
+        "type": "MadeWith",
+        "category": "Util",
         "github": {
-            "username": "DioxusLabs",
-            "repo": "dioxus"
+            "username": "floneum",
+            "repo": "floneum"
         },
         "link": null
     },
