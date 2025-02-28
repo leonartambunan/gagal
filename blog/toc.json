@@ -14,7 +14,7 @@
         "name": "RustScan",
         "description": "🤖 The Modern Port Scanner 🤖",
         "type": "MadeWith",
-        "category": "Security",
+        "category": "App",
         "github": {
             "username": "RustScan",
             "repo": "RustScan"
