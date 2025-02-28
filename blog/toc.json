@@ -1,6 +1,6 @@
 [
     {
-        "name": "aichat",
+        "name": "Aichat",
         "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
         "type": "Awesome",
         "category": "Util",
@@ -22,7 +22,7 @@
         "link": null
     },
     {
-        "name": "gdbgui",
+        "name": "Gdbgui",
         "description": "Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.",
         "type": "Awesome",
         "category": "Rust",
@@ -33,7 +33,7 @@
         "link": null
     },
     {
-        "name": "vproxy",
+        "name": "Vproxy",
         "description": "A high-performance HTTP/HTTPS/SOCKS5 proxy server.",
         "type": "Awesome",
         "category": "Rust",
@@ -44,7 +44,7 @@
         "link": null
     },
     {
-        "name": "candle",
+        "name": "Candle",
         "description": "Minimalist ML framework for Rust.",
         "type": "MadeWith",
         "category": "Util",
@@ -55,7 +55,7 @@
         "link": null
     },
     {
-        "name": "ratatui",
+        "name": "Ratatui",
         "description": "A Rust crate for cooking up terminal user interfaces (TUIs)",
         "type": "Awesome",
         "category": "Rust",
@@ -66,7 +66,7 @@
         "link": null
     },
     {
-        "name": "kalousm",
+        "name": "Kalousm",
         "description": "Fullstack app framework for web, desktop, mobile, and more.",
         "type": "Awesome",
         "category": "Rust",
@@ -77,7 +77,7 @@
         "link": null
     },
     {
-        "name": "axum",
+        "name": "Axum",
         "description": "Ergonomic and modular web framework built with Tokio, Tower, and Hyper.",
         "type": "Awesome",
         "category": "Rust",
@@ -88,7 +88,7 @@
         "link": null
     },
     {
-        "name": "sozu",
+        "name": "Sozu",
         "description": "Sozu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust. It is awesome!",
         "type": "Awesome",
         "category": "Rust",
