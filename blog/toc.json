@@ -88,13 +88,13 @@
         "link": null
     },
     {
-        "name": "dioxus-logger",
-        "description": "A logging utility to provide a standard interface whether you're targeting web, desktop, or mobile.",
+        "name": "sozu",
+        "description": "Sōzu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust. It is awesome!",
         "type": "Awesome",
-        "category": "Logging",
+        "category": "proxy",
         "github": {
-            "username": "DogeDark",
-            "repo": "dioxus-logger"
+            "username": "sozu-proxy",
+            "repo": "sozu"
         },
         "link": null
     },
