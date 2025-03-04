@@ -122,5 +122,18 @@
             "repo": "floneum"
         },
         "link": "https://floneum.com/"
+    },
+
+    {
+        "name": "CQRS Example",
+        "description": "An event-sourced command-query system for Rust",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "cq-rs",
+            "repo": "cqrs"
+        },
+        "link": null
     }
+
 ]
