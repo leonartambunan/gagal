@@ -122,9 +122,9 @@
             "repo": "floneum"
         },
         "link": "https://floneum.com/"
-    },
+    }
 
-    {
+    , {
         "name": "CQRS Example",
         "description": "An event-sourced command-query system for Rust",
         "type": "Awesome",
@@ -132,6 +132,18 @@
         "github": {
             "username": "cq-rs",
             "repo": "cqrs"
+        },
+        "link": null
+    }
+
+     , {
+        "name": "cotp",
+        "description": "Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "replydev",
+            "repo": "cotp"
         },
         "link": null
     }
