@@ -158,6 +158,16 @@
         },
         "link": null
     }
-
-
+    
+    ,{
+        "name": "Sea-orm",
+        "description": "🐚 An async & dynamic ORM for Rust",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "SeaQL",
+            "repo": "sea-orm"
+        },
+        "link": null
+    }
 ]
