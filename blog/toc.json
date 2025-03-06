@@ -298,5 +298,19 @@
         "link": null
     }
 
+    ,{
+        "name": "Rumqtt",
+        "description": "The MQTT ecosystem in rust",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "bytebeamio",
+            "repo": "rumqtt"
+        },
+        "link": null
+    }
+
+    
+
     
 ]
