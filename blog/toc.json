@@ -320,6 +320,18 @@
         "link": null
     }    
 
+    ,{
+        "name": "stalwart",
+        "description": "Secure & Modern All-in-One Mail Server (IMAP, JMAP, POP3, SMTP)",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "stalwartlabs",
+            "repo": "mail-server"
+        },
+        "link": null
+    }
+
    
 
     
