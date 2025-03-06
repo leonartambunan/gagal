@@ -195,5 +195,19 @@
         "link": null
     }
 
+    ,{
+        "name": "Algorithms in Rust",
+        "description": "All Algorithms implemented in Rust",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "TheAlgorithms",
+            "repo": "Rust"
+        },
+        "link": null
+    }
+
+    
+
     
 ]
