@@ -230,6 +230,19 @@
         },
         "link": null
     }
+
+    ,{
+        "name": "Cursive",
+        "description": "A Text User Interface library for the Rust programming language",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "gyscos",
+            "repo": "cursive"
+        },
+        "link": null
+    }
+
     
 
     
