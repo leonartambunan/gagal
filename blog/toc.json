@@ -242,7 +242,7 @@
         },
         "link": null
     }
- ,{
+    ,{
         "name": "Pgcat",
         "description": "PostgreSQL pooler with sharding, load balancing and failover support.",
         "type": "MadeWith",
@@ -253,4 +253,29 @@
         },
         "link": null
     }
+    ,{
+        "name": "Sql-studio",
+        "description": "SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, Microsoft SQL Server]",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "frectonz",
+            "repo": "sql-studio"
+        },
+        "link": null
+    }
+    ,{
+        "name": "Apache Iggy",
+        "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "apache",
+            "repo": "iggy"
+        },
+        "link": null
+    }
+
+
+    
 ]
