@@ -275,7 +275,28 @@
         },
         "link": null
     }
-
+ ,{
+        "name": "IndraDB",
+        "description": "A graph database written in rust",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "indradb",
+            "repo": "indradb"
+        },
+        "link": null
+    }
+     ,{
+        "name": "Tabled",
+        "description": "An easy to use library for pretty print tables of Rust structs and enums.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "zhiburt",
+            "repo": "tabled"
+        },
+        "link": null
+    }
 
     
 ]
