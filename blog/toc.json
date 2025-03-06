@@ -242,8 +242,15 @@
         },
         "link": null
     }
-
-    
-
-    
+ ,{
+        "name": "Pgcat",
+        "description": "PostgreSQL pooler with sharding, load balancing and failover support.",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "postgresml",
+            "repo": "pgcat"
+        },
+        "link": null
+    }
 ]
