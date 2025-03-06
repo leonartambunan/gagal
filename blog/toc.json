@@ -170,4 +170,16 @@
         },
         "link": null
     }
+
+    ,{
+        "name": "RustDesk",
+        "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "rustdesk",
+            "repo": "rustdesk"
+        },
+        "link": null
+    },
 ]
