@@ -219,7 +219,17 @@
         "link": null
     }
 
-
+    ,{
+        "name": "sshx",
+        "description": "Fast, collaborative live terminal sharing over the web",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "ekzhang",
+            "repo": "sshx"
+        },
+        "link": null
+    }
     
 
     
