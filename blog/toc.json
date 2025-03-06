@@ -297,7 +297,6 @@
         },
         "link": null
     }
-
     ,{
         "name": "Rumqtt",
         "description": "The MQTT ecosystem in rust",
@@ -309,8 +308,19 @@
         },
         "link": null
     }
+    ,{
+        "name": "hyperswitch",
+        "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "juspay",
+            "repo": "hyperswitch"
+        },
+        "link": null
+    }    
 
-    
+   
 
     
 ]
