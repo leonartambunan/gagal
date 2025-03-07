@@ -331,8 +331,15 @@
         },
         "link": null
     }
-
-   
-
-    
+     ,{
+        "name": "mprocs",
+        "description": "Run multiple commands in parallel",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "pvolok",
+            "repo": "mprocs"
+        },
+        "link": null
+    }   
 ]
