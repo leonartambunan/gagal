@@ -342,4 +342,15 @@
         },
         "link": null
     }   
+     ,{
+        "name": "qrcode.show",
+        "description": "[WORKING PROTOTYPE] Generate QR code easily for free - QR Code Generation as a Service",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "sayanarijit",
+            "repo": "qrcode.show"
+        },
+        "link": null
+    }    
 ]
