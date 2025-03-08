@@ -319,7 +319,17 @@
         },
         "link": null
     }    
-
+    ,{
+        "name": "rauthy",
+        "description": "OpenID Connect Single Sign-On Identity & Access Management",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "sebadob",
+            "repo": "rauthy"
+        },
+        "link": null
+    }    
     ,{
         "name": "stalwart",
         "description": "Secure & Modern All-in-One Mail Server (IMAP, JMAP, POP3, SMTP)",
