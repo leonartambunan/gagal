@@ -396,4 +396,16 @@
         },
         "link": null
     }    
+    ,{
+        "name": "Dioxus",
+        "description": "Build fast web applications with Rust.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "leptos-rs",
+            "repo": "leptos"
+        },
+        "link": null
+    } 
+
 ]
