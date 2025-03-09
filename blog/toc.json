@@ -22,6 +22,17 @@
         "link": null
     },
     {
+        "name": "Caido",
+        "description": "A lightweight web security auditing toolkit",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "caido",
+            "repo": "caido"
+        },
+        "link": null
+    },
+    {
         "name": "Gdbgui",
         "description": "Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.",
         "type": "Awesome",
