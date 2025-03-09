@@ -407,5 +407,15 @@
         },
         "link": null
     } 
-
+    ,{
+        "name": "Teloxide",
+        "description": "🤖 An elegant Telegram bots framework for Rust.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "teloxide",
+            "repo": "teloxide"
+        },
+        "link": null
+    } 
 ]
