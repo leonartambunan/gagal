@@ -385,4 +385,15 @@
         },
         "link": null
     }    
+     ,{
+        "name": "Dioxus",
+        "description": "Fullstack app framework for web, desktop, mobile, and more.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "DioxusLabs",
+            "repo": "dioxus"
+        },
+        "link": null
+    }    
 ]
