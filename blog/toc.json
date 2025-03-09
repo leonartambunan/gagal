@@ -320,6 +320,17 @@
         "link": null
     }
     ,{
+        "name": "RMQTT Broker",
+        "description": "MQTT Server/MQTT Broker - Scalable Distributed MQTT Message Broker for IoT in the 5G Era",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "rmqtt",
+            "repo": "rmqtt"
+        },
+        "link": null
+    }
+    ,{
         "name": "hyperswitch",
         "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
         "type": "MadeWith",
