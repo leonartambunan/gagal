@@ -428,5 +428,17 @@
             "repo": "silicon"
         },
         "link": null
-    } 
+    }
+
+    ,{
+        "name": "Diesel",
+        "description": "A safe, extensible ORM and Query Builder for Rust.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "diesel-rs",
+            "repo": "diesel"
+        },
+        "link": null
+    }
 ]
