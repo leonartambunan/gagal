@@ -418,4 +418,15 @@
         },
         "link": null
     } 
+     ,{
+        "name": "Silicon",
+        "description": "Create beautiful image of your source code.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "Aloxaf",
+            "repo": "silicon"
+        },
+        "link": null
+    } 
 ]
