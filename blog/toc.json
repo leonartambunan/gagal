@@ -441,4 +441,17 @@
         },
         "link": null
     }
+        ,{
+        "name": "Openobserve",
+        "description": "🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance, 🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "openobserve",
+            "repo": "openobserve"
+        },
+        "link": null
+    }
+
+    
 ]
