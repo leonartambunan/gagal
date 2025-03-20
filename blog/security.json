@@ -1,1 +1,13 @@
-
+[
+    {
+        "name": "Matkap",
+        "description": "Matkap hunts down malicious Telegram bots",
+        "type": "Awesome",
+        "category": "Telegram",
+        "github": {
+            "username": "0x6rss",
+            "repo": "matkap"
+        },
+        "link": null
+    }
+]
