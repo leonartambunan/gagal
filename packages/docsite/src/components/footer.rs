@@ -6,8 +6,8 @@ pub fn Footer() -> Element {
             "OCR",
             vec![
                 ("EKTP", "/ektp"),
-                ("NPWP", "https://www.gagal.works/npwp"),
-                ("SIM", "https://www.gagal.works/sim"),
+                ("NPWP", "/npwp"),
+                ("SIM", "/sim"),
             ],
         ),
         (
