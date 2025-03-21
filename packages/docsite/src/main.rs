@@ -150,7 +150,7 @@ pub enum Route {
         #[route("/")]
         Homepage {},
 
-        #[route("/awesome")]
+        #[route("/dev")]
         AwesomeDev {},
 
         #[route("/security")]
