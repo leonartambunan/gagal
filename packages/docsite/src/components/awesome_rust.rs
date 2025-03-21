@@ -3,8 +3,7 @@ use std::fmt::{Display, Formatter};
 use wasm_bindgen::prelude::wasm_bindgen;
 
 const ITEM_LIST_LINK: &str =
-    // "https://raw.githubusercontent.com/DioxusLabs/awesome-dioxus/master/awesome.json";
-    "https://raw.githubusercontent.com/leonartambunan/gagal/refs/heads/main/blog/toc.json";
+    "https://raw.githubusercontent.com/leonartambunan/gagal/refs/heads/main/blog/rust.json";
 const STAR_CACHE_NAME: &str = "STARS-";
 
 #[derive(Props, Clone, serde::Deserialize, PartialEq)]

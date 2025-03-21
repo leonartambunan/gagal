@@ -121,7 +121,7 @@ pub(crate) fn AwesomeAIInner() -> Element {
                         }
                         p { class: "mx-auto text-md lg:text-xl text-gray-600 dark:text-gray-400 pb-10 px-2 max-w-screen-sm",
                             div {
-                                "Everything you'll need as IT Engineer!"
+                                "Everything you'll need as AI Engineer!"
                             }
                         }
                     }
@@ -155,7 +155,7 @@ pub(crate) fn AwesomeAIInner() -> Element {
                             "Made with Rust"
                         }
                         p { class: "mx-auto text-xl text-gray-600 dark:text-gray-400 pb-10 px-2 max-w-screen-sm",
-                            "Real world uses of Rust."
+                            "Rust in AI."
                         }
                     }
                 }
