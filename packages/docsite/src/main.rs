@@ -151,7 +151,10 @@ pub enum Route {
         Homepage {},
 
         #[route("/awesome")]
-        Awesome {},
+        AwesomeRust {},
+
+        #[route("/security")]
+        AwesomeSec {},
 
         #[route("/ocrs")]
         OCRS {},

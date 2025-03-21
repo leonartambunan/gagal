@@ -1,0 +1,1 @@
+dx build --features web --platform web --release --package gagalworks_site

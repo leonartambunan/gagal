@@ -1,5 +1,7 @@
-pub mod awesome;
-pub use awesome::*;
+pub mod awesome_rust;
+pub use awesome_rust::*;
+pub mod awesome_sec;
+pub use awesome_sec::*;
 pub mod footer;
 pub use footer::*;
 pub mod homepage;

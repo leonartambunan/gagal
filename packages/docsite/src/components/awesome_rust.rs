@@ -12,7 +12,7 @@ struct Item {
     name: String,
     description: String,
     r#type: AwesomeType,
-    category: Category,
+    category: RustCategory,
 
     /// Option GitHub Information
     /// Items won't display stars without this.
@@ -36,7 +36,7 @@ struct GithubInfo {
 }
 
 #[derive(Clone, Copy, serde::Deserialize, PartialEq)]
-enum Category {
+enum RustCategory {
     Misc,
     Util,
     Logging,
@@ -48,7 +48,7 @@ enum Category {
     Rust,
 }
 
-impl Display for Category {
+impl Display for RustCategory {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         let converted = match self {
             Self::Misc => "📎 Misc",
@@ -72,14 +72,14 @@ pub struct StarsResponse {
 }
 
 #[component]
-pub(crate) fn Awesome() -> Element {
+pub(crate) fn AwesomeRust() -> Element {
     rsx! {
-        div { class: "mx-auto max-w-screen-lg", AwesomeInner {} }
+        div { class: "mx-auto max-w-screen-lg", AwesomeRustInner {} }
     }
 }
 
 #[component]
-pub(crate) fn AwesomeInner() -> Element {
+pub(crate) fn AwesomeRustInner() -> Element {
     let items = use_resource(move || async move {
         let req = match reqwest::get(ITEM_LIST_LINK).await {
             Ok(r) => r,
@@ -122,9 +122,8 @@ pub(crate) fn AwesomeInner() -> Element {
                         }
                         p { class: "mx-auto text-md lg:text-xl text-gray-600 dark:text-gray-400 pb-10 px-2 max-w-screen-sm",
                             div {
-                                "Everything you'll need as IT Programmer!"
+                                "Everything you'll need as IT Engineer!"
                             }
-
                         }
                     }
                     div { class: "container mx-auto",
@@ -144,7 +143,7 @@ pub(crate) fn AwesomeInner() -> Element {
                     div { class: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 container mx-auto px-2 max-w-screen-1g",
                         for item in items.iter() {
                             if let AwesomeType::Awesome = item.r#type {
-                                AwesomeItem { key: "{item.name}", item: item.clone() }
+                                AwesomeRustItem { key: "{item.name}", item: item.clone() }
                             }
                         }
                     }
@@ -165,7 +164,7 @@ pub(crate) fn AwesomeInner() -> Element {
                     div { class: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 container mx-auto px-2 max-w-screen-1g",
                         for item in items.iter() {
                             if let AwesomeType::MadeWith = item.r#type {
-                                AwesomeItem { key: "{item.name}", item: item.clone() }
+                                AwesomeRustItem { key: "{item.name}", item: item.clone() }
                             }
                         }
                     }
@@ -201,7 +200,7 @@ pub(crate) fn AwesomeInner() -> Element {
 }
 
 #[component]
-fn AwesomeItem(item: ReadOnlySignal<Item>) -> Element {
+fn AwesomeRustItem(item: ReadOnlySignal<Item>) -> Element {
     let stars = use_resource(move || async move {
         let item = item.read();
         let is_github = item.github.is_some();
@@ -271,7 +270,7 @@ fn AwesomeItem(item: ReadOnlySignal<Item>) -> Element {
                     }
                 }
                 div { class: "mt-auto pt-4 flex",
-                    if Category::Rust != item.category {
+                    if RustCategory::Rust != item.category {
                         p { class: "text-gray-500 font-bold dark:text-gray-300", "{item.category}" }
                     }
                     p { class: "ml-auto text-gray-500 font-bold dark:text-gray-300",

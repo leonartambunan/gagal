@@ -5,15 +5,16 @@ pub fn Footer() -> Element {
         (
             "OCR",
             vec![
-                ("EKTP", "https://www.gagal.works/ektp"),
+                ("EKTP", "/ektp"),
                 ("NPWP", "https://www.gagal.works/npwp"),
                 ("SIM", "https://www.gagal.works/sim"),
             ],
         ),
         (
-            "Toolbox",
+            "Tools",
             vec![
-                ("Awesome Tools", "/awesome"),
+                ("Dev Tools", "/awesome"),
+                ("Sec Tools", "/security"),
                 
             ],
         ),
