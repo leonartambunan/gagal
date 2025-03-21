@@ -15,7 +15,7 @@ pub fn Footer() -> Element {
             vec![
                 ("Dev Tools", "/awesome"),
                 ("Sec Tools", "/security"),
-                
+                ("AI Tools", "/ai"),                
             ],
         ),
         (

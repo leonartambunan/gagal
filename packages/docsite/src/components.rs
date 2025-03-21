@@ -2,6 +2,8 @@ pub mod awesome_rust;
 pub use awesome_rust::*;
 pub mod awesome_sec;
 pub use awesome_sec::*;
+pub mod awesome_ai;
+pub use awesome_ai::*;
 pub mod footer;
 pub use footer::*;
 pub mod homepage;

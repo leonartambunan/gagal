@@ -9,5 +9,27 @@
             "repo": "matkap"
         },
         "link": null
+    },
+    {
+        "name": "RustScan",
+        "description": "🤖 The Modern Port Scanner 🤖",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "RustScan",
+            "repo": "RustScan"
+        },
+        "link": null
+    },
+    {
+        "name": "Caido",
+        "description": "A lightweight web security auditing toolkit",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "caido",
+            "repo": "caido"
+        },
+        "link": null
     }
 ]

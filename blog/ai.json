@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Aichat",
+        "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "sigoden",
+            "repo": "aichat"
+        },
+        "link": null
+    },
+    {
+        "name": "Candle",
+        "description": "Minimalist ML framework for Rust.",
+        "type": "MadeWith",
+        "category": "Util",
+        "github": {
+            "username": "huggingface",
+            "repo": "candle"
+        },
+        "link": null
+    },
+    {
+        "name": "Kalousm",
+        "description": "Fullstack app framework for web, desktop, mobile, and more.",
+        "type": "Awesome",
+        "category": "Rust",
+        "github": {
+            "username": "floneum",
+            "repo": "floneum"
+        },
+        "link": null
+    },
+    {
+        "name": "Axum",
+        "description": "Ergonomic and modular web framework built with Tokio, Tower, and Hyper.",
+        "type": "Awesome",
+        "category": "Rust",
+        "github": {
+            "username": "tokio-rs",
+            "repo": "axum"
+        },
+        "link": null
+    },
+    {
+        "name": "Sozu",
+        "description": "Sozu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust. It is awesome!",
+        "type": "Awesome",
+        "category": "Rust",
+        "github": {
+            "username": "sozu-proxy",
+            "repo": "sozu"
+        },
+        "link": null
+    },      
+    {
+        "name": "Bionic GPT",
+        "description": "ChatGPT replacement with a focus on data confidentiality",
+        "type": "Awesome",
+        "category": "Rust",
+        "github": {
+            "username": "bionic-gpt",
+            "repo": "bionic-gpt"
+        },
+        "link": null
+    }  
+
+    
+]

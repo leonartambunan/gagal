@@ -156,6 +156,9 @@ pub enum Route {
         #[route("/security")]
         AwesomeSec {},
 
+        #[route("/ai")]
+        AwesomeAI {},
+
         #[route("/ocrs")]
         OCRS {},
 

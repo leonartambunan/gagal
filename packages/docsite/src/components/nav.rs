@@ -21,6 +21,7 @@ static LINKS: &[(&str, &str)] = &[
     ("OCR", "/ocrs"),
     ("Dev Tools", "/awesome"),
     ("Sec Tools", "/security"),
+    ("AI Tools", "/ai"),
 ];
 
  #[component]

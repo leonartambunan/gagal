@@ -1,38 +1,5 @@
 [
     {
-        "name": "Aichat",
-        "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
-        "type": "Awesome",
-        "category": "Util",
-        "github": {
-            "username": "sigoden",
-            "repo": "aichat"
-        },
-        "link": null
-    },
-    {
-        "name": "RustScan",
-        "description": "🤖 The Modern Port Scanner 🤖",
-        "type": "MadeWith",
-        "category": "Rust",
-        "github": {
-            "username": "RustScan",
-            "repo": "RustScan"
-        },
-        "link": null
-    },
-    {
-        "name": "Caido",
-        "description": "A lightweight web security auditing toolkit",
-        "type": "MadeWith",
-        "category": "Rust",
-        "github": {
-            "username": "caido",
-            "repo": "caido"
-        },
-        "link": null
-    },
-    {
         "name": "Gdbgui",
         "description": "Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.",
         "type": "Awesome",
@@ -55,17 +22,6 @@
         "link": null
     },
     {
-        "name": "Candle",
-        "description": "Minimalist ML framework for Rust.",
-        "type": "MadeWith",
-        "category": "Util",
-        "github": {
-            "username": "huggingface",
-            "repo": "candle"
-        },
-        "link": null
-    },
-    {
         "name": "Ratatui",
         "description": "A Rust crate for cooking up terminal user interfaces (TUIs)",
         "type": "Awesome",
@@ -73,17 +29,6 @@
         "github": {
             "username": "ratatui",
             "repo": "ratatui"
-        },
-        "link": null
-    },
-    {
-        "name": "Kalousm",
-        "description": "Fullstack app framework for web, desktop, mobile, and more.",
-        "type": "Awesome",
-        "category": "Rust",
-        "github": {
-            "username": "floneum",
-            "repo": "floneum"
         },
         "link": null
     },
@@ -109,8 +54,6 @@
         },
         "link": null
     },
-   
-    
     {
         "name": "Bionic GPT",
         "description": "ChatGPT replacement with a focus on data confidentiality",
@@ -121,8 +64,7 @@
             "repo": "bionic-gpt"
         },
         "link": null
-    },
-    
+    },    
     {
         "name": "Floneum",
         "description": "A graph editor for local AI workflows",
@@ -133,9 +75,8 @@
             "repo": "floneum"
         },
         "link": "https://floneum.com/"
-    }
-
-    , {
+    }, 
+    {
         "name": "CQRS Example",
         "description": "An event-sourced command-query system for Rust",
         "type": "Awesome",
@@ -145,9 +86,8 @@
             "repo": "cqrs"
         },
         "link": null
-    }
-
-     ,{
+    },
+    {
         "name": "cotp",
         "description": "Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.",
         "type": "MadeWith",
@@ -157,8 +97,8 @@
             "repo": "cotp"
         },
         "link": null
-    }
-    ,{
+    },    
+    {
         "name": "Youtube comments cleaner",
         "description": "Youtube doesn't provide a way to delete all your comments, so He made one!.",
         "type": "Awesome",
@@ -168,9 +108,8 @@
             "repo": "Delete-Your-Youtube-Comments"
         },
         "link": null
-    }
-    
-    ,{
+    },
+    {
         "name": "Sea-orm",
         "description": "🐚 An async & dynamic ORM for Rust",
         "type": "Awesome",
@@ -397,7 +336,7 @@
         "link": null
     }    
     ,{
-        "name": "Dioxus",
+        "name": "Leptos",
         "description": "Build fast web applications with Rust.",
         "type": "Awesome",
         "category": "Util",
