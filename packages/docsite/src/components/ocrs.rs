@@ -6,15 +6,13 @@ pub(crate) mod ocr_hero;
 pub(crate) fn OCRS() -> Element {
     rsx! {
         div { class: "w-full",
-            // AvailablePlatforms {}
-            // Stats {}
             ocr_hero::OCRHero {}
         }
     }
 }
 
 #[component]
-fn TriShow(
+fn OcrTriShow(
     left: Element,
     center: Element,
     right: Element,
@@ -38,11 +36,11 @@ fn TriShow(
 }
 
 #[component]
-fn TriPadding(children: Element, last: bool) -> Element {
+fn OcrTriPadding(children: Element, last: bool) -> Element {
     rsx!(
         div { class: "flex flex-col items-center",
             div { class: "w-0 h-10 border-dashed border border-[#444]" }
-            IconSplit {}
+            OcrIconSplit {}
             if !last {
                 div { class: "w-0 h-full border-dashed border border-[#444]", {children} }
             }
@@ -50,50 +48,8 @@ fn TriPadding(children: Element, last: bool) -> Element {
     )
 }
 
-// #[component]
-// fn DeveloperExperience() -> Element {
-//     rsx! (
-//         section { class: "pt-36 w-full dark:text-white",
-//             div { class: "container mx-auto max-w-screen-2xl",
-//                 div { class: "relative",
-//                     div { class: "flex flex-col max-w-screen-lg mx-auto pb-20",
-//                         h1 { class: "text-[3.3em] font-bold tracking-tight items-center justify-center text-center dark:text-white text-ghdarkmetal pb-4 mb-4 ",
-//                             "Redefining developer experience."
-//                         }
-//                         div { class: "flex flex-row",
-//                             p { class: "text-xl text-gray-600 dark:text-gray-400 pb-4 max-w-screen-sm w-1/2",
-//                                 "Dioxus is a React-inspired library for Rust that empowers you to quickly build fast, beautiful, and fully-featured apps for every platform."
-//                             }
-//                             p { class: "text-xl text-gray-600 dark:text-gray-400 pb-4 max-w-screen-sm w-1/2",
-//                                 "Dioxus is a React-inspired library for Rust that empowers you to quickly build fast, beautiful, and fully-featured apps for every platform."
-//                             }
-//                         }
-//                     }
-//                     div { class: "max-w-screen-2xl mx-auto flex flex-row",
-//                         div { class: "w-1/2" }
-//                         div { class: "w-1/2",
-//                             ExperienceText {
-//                                 title: "Integrated Devtools",
-//                                 content: "Hot reloading for instant iteration, automatic code formatting, convert HTML to RSX, and more.",
-//                             }
-//                             ExperienceText {
-//                                 title: "Minimal configuration",
-//                                 content: "Start projects with `cargo new`. No build scripts or configuration required for development.",
-//                             }
-//                             ExperienceText {
-//                                 title: "",
-//                                 content: "Strong typing with no runtime overhead. Automatically derive props, forms, API clients, and more.",
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     )
-// }
-
 #[component]
-fn ExperienceText(title: &'static str, content: &'static str) -> Element {
+fn OcrExperienceText(title: &'static str, content: &'static str) -> Element {
     rsx!(
         div { class: "pb-12",
             h3 { class: "text-2xl text-gray-800 font-semibold pb-2 dark:text-gray-100 ",
@@ -104,7 +60,7 @@ fn ExperienceText(title: &'static str, content: &'static str) -> Element {
     )
 }
 
-fn IconSplit() -> Element {
+fn OcrIconSplit() -> Element {
     rsx! {
         svg {
             class: "mx-auto fill-[#444] dark:fill-white",
@@ -123,44 +79,8 @@ fn IconSplit() -> Element {
     }
 }
 
-// fn Stats() -> Element {
-//     rsx! {
-//         section { class: "py-12 w-full",
-//             div { class: "container mx-auto max-w-screen-lg",
-//                 div { class: "relative ",
-//                     div { class: "flex flex-col items-center justify-center text-center max-w-screen-lg mx-auto pb-4",
-//                         h1 { class: "text-[3.3em] font-bold tracking-tight dark:text-white text-ghdarkmetal pb-4 mb-4 ",
-//                             "A vibrant, active community."
-//                         }
-//                         p { class: "text-xl text-gray-600 dark:text-gray-400 pb-4 max-w-screen-sm",
-//                             "Driven by a large, active, and welcoming community."
-//                         }
-//                     }
-//                 }
-//             }
-//             div { class: "max-w-screen-xl mx-auto py-12 px-2 md:px-16 dark:bg-[#111111] mb-12",
-//                 div { class: "grid grid-cols-2 grid-rows-2 sm:grid-cols-4 sm:grid-rows-1",
-//                     StatsItem { major: "19k", minor: "Stars" }
-//                     StatsItem { major: "210k", minor: "Downloads" }
-//                     StatsItem { major: "235", minor: "Contributors" }
-//                     StatsItem { major: "1900", minor: "Community Projects" }
-//                 }
-//             }
-//             a {
-//                 href: "https://github.com/dioxuslabs/dioxus/graphs/contributors",
-//                 target: "_blank",
-//                 img {
-//                     src: "https://contrib.rocks/image?repo=dioxuslabs/dioxus&max=52&columns=13",
-//                     class: "mx-auto pb-12",
-//                     alt: "Dioxus Contributors",
-//                 }
-//             }
-//         }
-//     }
-// }
-
 #[component]
-fn StatsItem(major: String, minor: String) -> Element {
+fn OcrStatsItem(major: String, minor: String) -> Element {
     rsx! {
         div { class: "text-center shadow mx-2 rounded-lg py-6 border",
             div { class: "text-5xl font-bold text-gray-800 dark:text-gray-100", {major} }

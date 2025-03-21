@@ -1,5 +1,5 @@
-pub mod awesome_rust;
-pub use awesome_rust::*;
+pub mod awesome_dev;
+pub use awesome_dev::*;
 pub mod awesome_sec;
 pub use awesome_sec::*;
 pub mod awesome_ai;

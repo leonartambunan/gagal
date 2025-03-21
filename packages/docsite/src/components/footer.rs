@@ -11,7 +11,7 @@ pub fn Footer() -> Element {
             ],
         ),
         (
-            "Tools",
+            "Toolbox",
             vec![
                 ("Dev Tools", "/awesome"),
                 ("Sec Tools", "/security"),

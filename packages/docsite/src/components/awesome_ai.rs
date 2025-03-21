@@ -7,7 +7,7 @@ const ITEM_LIST_LINK: &str =
 const STAR_CACHE_NAME: &str = "STARS-";
 
 #[derive(Props, Clone, serde::Deserialize, PartialEq)]
-struct Item {
+struct AiItem {
     name: String,
     description: String,
     r#type: AwesomeAIType,
@@ -15,7 +15,7 @@ struct Item {
 
     /// Option GitHub Information
     /// Items won't display stars without this.
-    github: Option<GithubInfo>,
+    github: Option<AiGithubInfo>,
 
     /// Optional external link
     /// Replaces the auto-generated github link with an external link.
@@ -29,7 +29,7 @@ enum AwesomeAIType {
 }
 
 #[derive(Default, Clone, serde::Deserialize, PartialEq)]
-struct GithubInfo {
+struct AiGithubInfo {
     username: String,
     repo: String,
 }
@@ -66,26 +66,26 @@ impl Display for AICategory {
 }
 
 #[derive(serde::Deserialize)]
-pub struct StarsResponse {
+pub struct AiStarsResponse {
     pub stargazers_count: u64,
 }
 
 #[component]
 pub(crate) fn AwesomeAI() -> Element {
     rsx! {
-        div { class: "mx-auto max-w-screen-lg", AwesomeRustInner {} }
+        div { class: "mx-auto max-w-screen-lg", AwesomeAiInner {} }
     }
 }
 
 #[component]
-pub(crate) fn AwesomeAIInner() -> Element {
+pub(crate) fn AwesomeAiInner() -> Element {
     let items = use_resource(move || async move {
         let req = match reqwest::get(ITEM_LIST_LINK).await {
             Ok(r) => r,
             Err(e) => return Err(e.to_string()),
         };
 
-        let items = match req.json::<Vec<Item>>().await {
+        let items = match req.json::<Vec<AiItem>>().await {
             Ok(i) => i,
             Err(e) => return Err(e.to_string()),
         };
@@ -104,7 +104,7 @@ pub(crate) fn AwesomeAIInner() -> Element {
                     .to_lowercase()
                     .cmp(&a.category.to_string().to_lowercase())
             });
-            let items: Vec<Item> = items
+            let items: Vec<AiItem> = items
                 .into_iter()
                 .filter(|i| {
                     i.name
@@ -199,17 +199,17 @@ pub(crate) fn AwesomeAIInner() -> Element {
 }
 
 #[component]
-fn AwesomeAIItem(item: ReadOnlySignal<Item>) -> Element {
+fn AwesomeAIItem(item: ReadOnlySignal<AiItem>) -> Element {
     let stars = use_resource(move || async move {
         let item = item.read();
         let is_github = item.github.is_some();
         let username = item
             .github
             .clone()
-            .unwrap_or(GithubInfo::default())
+            .unwrap_or(AiGithubInfo::default())
             .username;
 
-        let repo = item.github.clone().unwrap_or(GithubInfo::default()).repo;
+        let repo = item.github.clone().unwrap_or(AiGithubInfo::default()).repo;
 
         if !is_github {
             return None;
@@ -224,7 +224,7 @@ fn AwesomeAIItem(item: ReadOnlySignal<Item>) -> Element {
         if let Ok(req) =
             reqwest::get(format!("https://api.github.com/repos/{username}/{repo}")).await
         {
-            if let Ok(res) = req.json::<StarsResponse>().await {
+            if let Ok(res) = req.json::<AiStarsResponse>().await {
                 // Add to cache
                 set_stars(
                     format!("{}{}/{}", STAR_CACHE_NAME, username, repo),

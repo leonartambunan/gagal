@@ -6,15 +6,13 @@ pub(crate) mod ektp_hero;
 pub(crate) fn EKTP() -> Element {
     rsx! {
         div { class: "w-full",
-            // AvailablePlatforms {}
-            // Stats {}
             ektp_hero::EKTPHero{}
         }
     }
 }
 
 #[component]
-fn TriShow(
+fn EktpTriShow(
     left: Element,
     center: Element,
     right: Element,
@@ -24,7 +22,7 @@ fn TriShow(
 ) -> Element {
     rsx! {
         div { class: "w-full flex flex-row justify-center max-w-screen-lg",
-            TriPadding { last: last.unwrap_or_default(), {center} }
+            EktpTriPadding { last: last.unwrap_or_default(), {center} }
             div { class: "grow basis-0",
                 Link { to: to.clone(),
                     div { class: "min-w-lg max-w-screen-md hover:shadow-pop rounded-lg p-8",
@@ -40,11 +38,11 @@ fn TriShow(
 }
 
 #[component]
-fn TriPadding(children: Element, last: bool) -> Element {
+fn EktpTriPadding(children: Element, last: bool) -> Element {
     rsx!(
         div { class: "flex flex-col items-center",
             div { class: "w-0 h-10 border-dashed border border-[#444]" }
-            IconSplit {}
+            EktpIconSplit {}
             if !last {
                 div { class: "w-0 h-full border-dashed border border-[#444]", {children} }
             }
@@ -53,7 +51,7 @@ fn TriPadding(children: Element, last: bool) -> Element {
 }
 
 #[component]
-fn ExperienceText(title: &'static str, content: &'static str) -> Element {
+fn EktpExperienceText(title: &'static str, content: &'static str) -> Element {
     rsx!(
         div { class: "pb-12",
             h3 { class: "text-2xl text-gray-800 font-semibold pb-2 dark:text-gray-100 ",
@@ -64,7 +62,7 @@ fn ExperienceText(title: &'static str, content: &'static str) -> Element {
     )
 }
 
- fn IconSplit() -> Element {
+ fn EktpIconSplit() -> Element {
      rsx! {
          svg {
              class: "mx-auto fill-[#444] dark:fill-white",
@@ -83,44 +81,9 @@ fn ExperienceText(title: &'static str, content: &'static str) -> Element {
      }
  }
 
-// fn Stats() -> Element {
-//     rsx! {
-//         section { class: "py-12 w-full",
-//             div { class: "container mx-auto max-w-screen-lg",
-//                 div { class: "relative ",
-//                     div { class: "flex flex-col items-center justify-center text-center max-w-screen-lg mx-auto pb-4",
-//                         h1 { class: "text-[3.3em] font-bold tracking-tight dark:text-white text-ghdarkmetal pb-4 mb-4 ",
-//                             "A vibrant, active community."
-//                         }
-//                         p { class: "text-xl text-gray-600 dark:text-gray-400 pb-4 max-w-screen-sm",
-//                             "Driven by a large, active, and welcoming community."
-//                         }
-//                     }
-//                 }
-//             }
-//             div { class: "max-w-screen-xl mx-auto py-12 px-2 md:px-16 dark:bg-[#111111] mb-12",
-//                 div { class: "grid grid-cols-2 grid-rows-2 sm:grid-cols-4 sm:grid-rows-1",
-//                     StatsItem { major: "19k", minor: "Stars" }
-//                     StatsItem { major: "210k", minor: "Downloads" }
-//                     StatsItem { major: "235", minor: "Contributors" }
-//                     StatsItem { major: "1900", minor: "Community Projects" }
-//                 }
-//             }
-//             a {
-//                 href: "https://github.com/dioxuslabs/dioxus/graphs/contributors",
-//                 target: "_blank",
-//                 img {
-//                     src: "https://contrib.rocks/image?repo=dioxuslabs/dioxus&max=52&columns=13",
-//                     class: "mx-auto pb-12",
-//                     alt: "Dioxus Contributors",
-//                 }
-//             }
-//         }
-//     }
-// }
 
 #[component]
-fn StatsItem(major: String, minor: String) -> Element {
+fn EktpStatsItem(major: String, minor: String) -> Element {
     rsx! {
         div { class: "text-center shadow mx-2 rounded-lg py-6 border",
             div { class: "text-5xl font-bold text-gray-800 dark:text-gray-100", {major} }

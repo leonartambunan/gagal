@@ -6,7 +6,6 @@ pub(crate) fn Nav() -> Element {
     let _route: Route = use_route();
 
     rsx! {
-
         // header { class: "sticky top-0 z-30 bg-opacity-80 dark:text-gray-200 dark:bg-opacity-80 border-b border-stone-300 dark:border-stone-700 h-16 backdrop-blur-sm",
         header { class: "sticky top-0 z-30 bg-opacity-80 dark:text-gray-200 dark:bg-opacity-80 border-stone-300 dark:border-stone-700 h-16 backdrop-blur-sm",
           div { class: "py-2 px-2 max-w-screen-2xl mx-auto flex items-center justify-between text-sm leading-6 h-16",

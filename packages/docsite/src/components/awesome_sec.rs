@@ -7,7 +7,7 @@ const ITEM_LIST_LINK: &str =
 const STAR_CACHE_NAME: &str = "STARS-";
 
 #[derive(Props, Clone, serde::Deserialize, PartialEq)]
-struct Item {
+struct SecItem {
     name: String,
     description: String,
     r#type: AwesomeSecType,
@@ -15,7 +15,7 @@ struct Item {
 
     /// Option GitHub Information
     /// Items won't display stars without this.
-    github: Option<GithubInfo>,
+    github: Option<SecGithubInfo>,
 
     /// Optional external link
     /// Replaces the auto-generated github link with an external link.
@@ -29,7 +29,7 @@ enum AwesomeSecType {
 }
 
 #[derive(Default, Clone, serde::Deserialize, PartialEq)]
-struct GithubInfo {
+struct SecGithubInfo {
     username: String,
     repo: String,
 }
@@ -70,7 +70,7 @@ impl Display for SecCategory {
 }
 
 #[derive(serde::Deserialize)]
-pub struct StarsResponse {
+pub struct SecStarsResponse {
     pub stargazers_count: u64,
 }
 
@@ -89,7 +89,7 @@ pub(crate) fn AwesomeSecInner() -> Element {
             Err(e) => return Err(e.to_string()),
         };
 
-        let items = match req.json::<Vec<Item>>().await {
+        let items = match req.json::<Vec<SecItem>>().await {
             Ok(i) => i,
             Err(e) => return Err(e.to_string()),
         };
@@ -108,7 +108,7 @@ pub(crate) fn AwesomeSecInner() -> Element {
                     .to_lowercase()
                     .cmp(&a.category.to_string().to_lowercase())
             });
-            let items: Vec<Item> = items
+            let items: Vec<SecItem> = items
                 .into_iter()
                 .filter(|i| {
                     i.name
@@ -204,17 +204,17 @@ pub(crate) fn AwesomeSecInner() -> Element {
 }
 
 #[component]
-fn AwesomeSecItem(item: ReadOnlySignal<Item>) -> Element {
+fn AwesomeSecItem(item: ReadOnlySignal<SecItem>) -> Element {
     let stars = use_resource(move || async move {
         let item = item.read();
         let is_github = item.github.is_some();
         let username = item
             .github
             .clone()
-            .unwrap_or(GithubInfo::default())
+            .unwrap_or(SecGithubInfo::default())
             .username;
 
-        let repo = item.github.clone().unwrap_or(GithubInfo::default()).repo;
+        let repo = item.github.clone().unwrap_or(SecGithubInfo::default()).repo;
 
         if !is_github {
             return None;
@@ -229,7 +229,7 @@ fn AwesomeSecItem(item: ReadOnlySignal<Item>) -> Element {
         if let Ok(req) =
             reqwest::get(format!("https://api.github.com/repos/{username}/{repo}")).await
         {
-            if let Ok(res) = req.json::<StarsResponse>().await {
+            if let Ok(res) = req.json::<SecStarsResponse>().await {
                 // Add to cache
                 set_stars(
                     format!("{}{}/{}", STAR_CACHE_NAME, username, repo),

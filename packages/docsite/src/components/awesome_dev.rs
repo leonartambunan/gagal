@@ -7,15 +7,15 @@ const ITEM_LIST_LINK: &str =
 const STAR_CACHE_NAME: &str = "STARS-";
 
 #[derive(Props, Clone, serde::Deserialize, PartialEq)]
-struct Item {
+struct DevItem {
     name: String,
     description: String,
-    r#type: AwesomeType,
-    category: RustCategory,
+    r#type: DevAwesomeType,
+    category: DevCategory,
 
     /// Option GitHub Information
     /// Items won't display stars without this.
-    github: Option<GithubInfo>,
+    github: Option<DevGithubInfo>,
 
     /// Optional external link
     /// Replaces the auto-generated github link with an external link.
@@ -23,19 +23,19 @@ struct Item {
 }
 
 #[derive(Clone, serde::Deserialize, PartialEq)]
-enum AwesomeType {
+enum DevAwesomeType {
     Awesome,
     MadeWith,
 }
 
 #[derive(Default, Clone, serde::Deserialize, PartialEq)]
-struct GithubInfo {
+struct DevGithubInfo {
     username: String,
     repo: String,
 }
 
 #[derive(Clone, Copy, serde::Deserialize, PartialEq)]
-enum RustCategory {
+enum DevCategory {
     Misc,
     Util,
     Logging,
@@ -47,7 +47,7 @@ enum RustCategory {
     Rust,
 }
 
-impl Display for RustCategory {
+impl Display for DevCategory {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         let converted = match self {
             Self::Misc => "📎 Misc",
@@ -66,26 +66,26 @@ impl Display for RustCategory {
 }
 
 #[derive(serde::Deserialize)]
-pub struct StarsResponse {
+pub struct DevStarsResponse {
     pub stargazers_count: u64,
 }
 
 #[component]
-pub(crate) fn AwesomeRust() -> Element {
+pub(crate) fn AwesomeDev() -> Element {
     rsx! {
-        div { class: "mx-auto max-w-screen-lg", AwesomeRustInner {} }
+        div { class: "mx-auto max-w-screen-lg", DevAwesomeInner {} }
     }
 }
 
 #[component]
-pub(crate) fn AwesomeRustInner() -> Element {
+pub(crate) fn DevAwesomeInner() -> Element {
     let items = use_resource(move || async move {
         let req = match reqwest::get(ITEM_LIST_LINK).await {
             Ok(r) => r,
             Err(e) => return Err(e.to_string()),
         };
 
-        let items = match req.json::<Vec<Item>>().await {
+        let items = match req.json::<Vec<DevItem>>().await {
             Ok(i) => i,
             Err(e) => return Err(e.to_string()),
         };
@@ -104,7 +104,7 @@ pub(crate) fn AwesomeRustInner() -> Element {
                     .to_lowercase()
                     .cmp(&a.category.to_string().to_lowercase())
             });
-            let items: Vec<Item> = items
+            let items: Vec<DevItem> = items
                 .into_iter()
                 .filter(|i| {
                     i.name
@@ -141,8 +141,8 @@ pub(crate) fn AwesomeRustInner() -> Element {
                 section { class: "w-full pb-24",
                     div { class: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 container mx-auto px-2 max-w-screen-1g",
                         for item in items.iter() {
-                            if let AwesomeType::Awesome = item.r#type {
-                                AwesomeRustItem { key: "{item.name}", item: item.clone() }
+                            if let DevAwesomeType::Awesome = item.r#type {
+                                DevAwesomeItem { key: "{item.name}", item: item.clone() }
                             }
                         }
                     }
@@ -162,8 +162,8 @@ pub(crate) fn AwesomeRustInner() -> Element {
                 section { class: "w-full pb-24",
                     div { class: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 container mx-auto px-2 max-w-screen-1g",
                         for item in items.iter() {
-                            if let AwesomeType::MadeWith = item.r#type {
-                                AwesomeRustItem { key: "{item.name}", item: item.clone() }
+                            if let DevAwesomeType::MadeWith = item.r#type {
+                                DevAwesomeItem { key: "{item.name}", item: item.clone() }
                             }
                         }
                     }
@@ -199,17 +199,17 @@ pub(crate) fn AwesomeRustInner() -> Element {
 }
 
 #[component]
-fn AwesomeRustItem(item: ReadOnlySignal<Item>) -> Element {
+fn DevAwesomeItem(item: ReadOnlySignal<DevItem>) -> Element {
     let stars = use_resource(move || async move {
         let item = item.read();
         let is_github = item.github.is_some();
         let username = item
             .github
             .clone()
-            .unwrap_or(GithubInfo::default())
+            .unwrap_or(DevGithubInfo::default())
             .username;
 
-        let repo = item.github.clone().unwrap_or(GithubInfo::default()).repo;
+        let repo = item.github.clone().unwrap_or(DevGithubInfo::default()).repo;
 
         if !is_github {
             return None;
@@ -224,7 +224,7 @@ fn AwesomeRustItem(item: ReadOnlySignal<Item>) -> Element {
         if let Ok(req) =
             reqwest::get(format!("https://api.github.com/repos/{username}/{repo}")).await
         {
-            if let Ok(res) = req.json::<StarsResponse>().await {
+            if let Ok(res) = req.json::<DevStarsResponse>().await {
                 // Add to cache
                 set_stars(
                     format!("{}{}/{}", STAR_CACHE_NAME, username, repo),
@@ -269,7 +269,7 @@ fn AwesomeRustItem(item: ReadOnlySignal<Item>) -> Element {
                     }
                 }
                 div { class: "mt-auto pt-4 flex",
-                    if RustCategory::Rust != item.category {
+                    if DevCategory::Rust != item.category {
                         p { class: "text-gray-500 font-bold dark:text-gray-300", "{item.category}" }
                     }
                     p { class: "ml-auto text-gray-500 font-bold dark:text-gray-300",
