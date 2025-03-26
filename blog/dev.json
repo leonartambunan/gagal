@@ -279,7 +279,7 @@
             "repo": "hyperswitch"
         },
         "link": null
-    }    
+    }        
     ,{
         "name": "rauthy",
         "description": "OpenID Connect Single Sign-On Identity & Access Management",
@@ -288,6 +288,17 @@
         "github": {
             "username": "sebadob",
             "repo": "rauthy"
+        },
+        "link": null
+    }    
+    ,{
+        "name": "deadpool",
+        "description": "Dead simple pool implementation for rust with async-await",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "deadpool-rs",
+            "repo": "deadpool"
         },
         "link": null
     }    

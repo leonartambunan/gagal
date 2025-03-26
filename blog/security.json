@@ -33,6 +33,18 @@
         "link": null
     },
     {
+        "name": "Feroxbuster",
+        "description": "A fast, simple, recursive content discovery tool written in Rust.",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "epi052",
+            "repo": "feroxbuster"
+        },
+        "link": null
+    },
+
+    {
         "name": "Discover",
         "description": "Custom bash scripts used to automate various penetration testing tasks including recon, scanning, enumeration, and malicious payload creation using Metasploit. For use with Kali Linux",
         "type": "Awesome",
@@ -42,5 +54,27 @@
             "repo": "discover"
         },
         "link": null
-    }    
+    },
+    {
+        "name": "Subfinder",
+        "description": "Fast passive subdomain enumeration tool.",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "projectdiscovery",
+            "repo": "subfinder"
+        },
+        "link": null
+    },
+    {
+        "name": "Subzy",
+        "description": "Subdomain takeover vulnerability checker",
+        "type": "Awesome",
+        "category": "Util",
+        "github": {
+            "username": "PentestPad",
+            "repo": "subzy"
+        },
+        "link": null
+    }         
 ]
