@@ -42,5 +42,16 @@
             "repo": "bionic-gpt"
         },
         "link": null
-    }     
+    },
+    {
+        "name": "Awesome Huggingface",
+        "description": "ChatGPT replacement with a focus on data confidentiality",
+        "type": "Awesome",
+        "category": "Misc",
+        "github": {
+            "username": "huggingface",
+            "repo": "awesome-huggingface"
+        },
+        "link": null
+    }
 ]
