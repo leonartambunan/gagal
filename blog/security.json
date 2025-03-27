@@ -76,5 +76,60 @@
             "repo": "subzy"
         },
         "link": null
-    }         
+    }
+    ,{
+        "name": "Recon-NG",
+        "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
+        "type": "Awesome",
+        "category": "OSINT",
+        "github": {
+            "username": "lanmaster53",
+            "repo": "recon-ng"
+        },
+        "link": null
+    }
+    ,{
+        "name": "Amass",
+        "description": "In-depth attack surface mapping and asset discovery",
+        "type": "Awesome",
+        "category": "Reconnaisance",
+        "github": {
+            "username": "owasp-amass",
+            "repo": "amass"
+        },
+        "link": null
+    }  
+    ,{
+        "name": "Sublist3r",
+        "description": "Fast subdomains enumeration tool for penetration testers",
+        "type": "Awesome",
+        "category": "Reconnaisance",
+        "github": {
+            "username": "aboul3la",
+            "repo": "Sublist3r"
+        },
+        "link": null
+    }  
+    ,{
+        "name": "Gobuster",
+        "description": "Directory/File, DNS and VHost busting tool written in Go",
+        "type": "Awesome",
+        "category": "Reconnaisance",
+        "github": {
+            "username": "OJ",
+            "repo": "gobuster"
+        },
+        "link": null
+    }  
+    ,{
+        "name": "Ip2provider",
+        "description": "Resolves an IP address to the cloud provider it is hosted on",
+        "type": "Awesome",
+        "category": "Reconnaisance",
+        "github": {
+            "username": "oldrho",
+            "repo": "ip2provider"
+        },
+        "link": null
+    }      
 ]
