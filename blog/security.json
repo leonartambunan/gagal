@@ -132,4 +132,14 @@
         },
         "link": null
     }      
+    ,{
+        "name": "Dnsdumpster",
+        "description": "Dns recon & research, find & lookup dns records",
+        "type": "Awesome",
+        "category": "Reconnaisance",
+        "github": null,
+        "link": "https://dnsdumpster.com/"
+    }      
+
+    
 ]
