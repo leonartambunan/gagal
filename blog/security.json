@@ -142,5 +142,62 @@
             "repo": "AutoRecon"
         },
         "link": null
-    }      
+    }
+    ,{
+        "name": "Hydra",
+        "description": "Hydra",
+        "type": "Awesome",
+        "category": "Bruteforce",
+        "github": {
+            "username": "vanhauser-thc",
+            "repo": "thc-hydra"
+        },
+        "link": null
+    }
+    ,{
+        "name": "Enum4linux",
+        "description": "enum4Linux is a Linux alternative to enum.exe for enumerating data from Windows and Samba hosts",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "CiscoCXSecurity",
+            "repo": "enum4linux"
+        },
+        "link": null
+    }
+    ,{
+        "name": "John the Ripper jumbo",
+        "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
+        "type": "Awesome",
+        "category": "Bruteforce",
+        "github": {
+            "username": "openwall",
+            "repo": "john"
+        },
+        "link": null
+    }
+    ,{
+        "name": "SSH-Private-Key-Looting-Wordlists",
+        "description": "SSH Private Key Looting Wordlists. A collection of wordlists to aid in locating or brute-forcing SSH private key file names.",
+        "type": "Awesome",
+        "category": "Resource",
+        "github": {
+            "username": "PinoyWH1Z",
+            "repo": "SSH-Private-Key-Looting-Wordlists"
+        },
+        "link": null
+    }
+    ,{
+        "name": "Metasploit",
+        "description": "Metasploit framework.",
+        "type": "Awesome",
+        "category": "Exploitation",
+        "github": {
+            "username": "rapid7",
+            "repo": "metasploit-framework"
+        },
+        "link": null
+    }
+
+    
 ]

@@ -41,6 +41,7 @@ enum SecCategory {
     Bruteforce,
     OSINT,
     Reconnaisance,
+    Enumeration,
     PostgreSQL,
     Linux,
     Windows,
@@ -48,6 +49,8 @@ enum SecCategory {
     Rust,
     Web,
     Network,
+    Resource,
+    Exploitation,
 }
 
 impl Display for SecCategory {
@@ -57,14 +60,17 @@ impl Display for SecCategory {
             Self::Util => "🧰 Util",
             Self::Bruteforce => "🚪 Bruteforce",
             Self::OSINT => "🔍 OSINT",
-            Self::Reconnaisance=> "🔍 Recon",
+            Self::Reconnaisance => "🔍 Recon",
+            Self::Enumeration => "🔍 Enumeration",
             Self::PostgreSQL => "🐘 PostgreSQL",
             Self::Linux => "🐧 Linux",
             Self::Windows => "🪟 Windows",
             Self::Telegram => "☕ Telegram",
             Self::Rust => "🦀 Rust",
             Self::Web => "🌐 Web",
-            Self::Network => "🕸️ Network"
+            Self::Network => "🕸️ Network",
+            Self::Resource => "📚 Resource",
+            Self::Exploitation => "🛠️ Exploitation",
         };
 
         write!(f, "{converted}")
