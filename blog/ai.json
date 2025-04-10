@@ -53,5 +53,16 @@
             "repo": "awesome-huggingface"
         },
         "link": null
+    },
+    {
+        "name": "Tensorzero",
+        "description": "TensorZero creates a feedback loop for optimizing LLM applications — turning production data into smarter, faster, and cheaper models.",
+        "type": "MadeWith",
+        "category": "Util",
+        "github": {
+            "username": "tensorzero",
+            "repo": "tensorzero"
+        },
+        "link": null
     }
 ]

@@ -279,8 +279,17 @@
             "repo": "hyperswitch"
         },
         "link": null
-    }        
-    ,{
+    },{
+        "name": "Neon",
+        "description": "Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero",
+        "type": "MadeWith",
+        "category": "Rust",
+        "github": {
+            "username": "neondatabase",
+            "repo": "neon"
+        },
+        "link": null
+    },{
         "name": "rauthy",
         "description": "OpenID Connect Single Sign-On Identity & Access Management",
         "type": "MadeWith",
