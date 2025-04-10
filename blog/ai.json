@@ -42,8 +42,7 @@
             "repo": "bionic-gpt"
         },
         "link": null
-    },
-    {
+    },{
         "name": "Awesome Huggingface",
         "description": "ChatGPT replacement with a focus on data confidentiality",
         "type": "Awesome",
@@ -53,7 +52,17 @@
             "repo": "awesome-huggingface"
         },
         "link": null
-    },
+    },{
+        "name": "DGL",
+        "description": "Python package built to ease deep learning on graph, on top of existing DL frameworks.",
+        "type": "Awesome",
+        "category": "Misc",
+        "github": {
+            "username": "dmlc",
+            "repo": "dgl"
+        },
+        "link": null
+    },    
     {
         "name": "Tensorzero",
         "description": "TensorZero creates a feedback loop for optimizing LLM applications — turning production data into smarter, faster, and cheaper models.",
