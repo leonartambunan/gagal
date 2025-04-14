@@ -9,8 +9,7 @@
             "repo": "matkap"
         },
         "link": null
-    },
-    {
+    },{
         "name": "RustScan",
         "description": "🤖 The Modern Port Scanner 🤖",
         "type": "MadeWith",
@@ -20,8 +19,7 @@
             "repo": "RustScan"
         },
         "link": null
-    },
-    {
+    },{
         "name": "Caido",
         "description": "A lightweight web security auditing toolkit",
         "type": "MadeWith",
@@ -34,7 +32,7 @@
     },
     {
         "name": "Feroxbuster",
-        "description": "A fast, simple, recursive content discovery tool written in Rust.",
+        "description": "A fast, simple, recursive content discovery tool written in Rust",
         "type": "MadeWith",
         "category": "Rust",
         "github": {
@@ -42,9 +40,7 @@
             "repo": "feroxbuster"
         },
         "link": null
-    },
-
-    {
+    },{
         "name": "Discover",
         "description": "Custom bash scripts used to automate various penetration testing tasks including recon, scanning, enumeration, and malicious payload creation using Metasploit. For use with Kali Linux",
         "type": "Awesome",
@@ -54,10 +50,9 @@
             "repo": "discover"
         },
         "link": null
-    },
-    {
+    },{
         "name": "Subfinder",
-        "description": "Fast passive subdomain enumeration tool.",
+        "description": "Fast passive subdomain enumeration tool",
         "type": "Awesome",
         "category": "Util",
         "github": {
@@ -65,8 +60,7 @@
             "repo": "subfinder"
         },
         "link": null
-    }
-    ,{
+    },{
         "name": "Subzy",
         "description": "Subdomain takeover vulnerability checker",
         "type": "Awesome",
@@ -76,10 +70,9 @@
             "repo": "subzy"
         },
         "link": null
-    }
-    ,{
+    },{
         "name": "Recon-NG",
-        "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
+        "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources",
         "type": "Awesome",
         "category": "OSINT",
         "github": {
@@ -87,34 +80,31 @@
             "repo": "recon-ng"
         },
         "link": null
-    }
-    ,{
+    },{
         "name": "Amass",
         "description": "In-depth attack surface mapping and asset discovery",
         "type": "Awesome",
-        "category": "Reconnaisance",
+        "category": "Enumeration",
         "github": {
             "username": "owasp-amass",
             "repo": "amass"
         },
         "link": null
-    }  
-    ,{
+    },{
         "name": "Sublist3r",
         "description": "Fast subdomains enumeration tool for penetration testers",
         "type": "Awesome",
-        "category": "Reconnaisance",
+        "category": "Enumeration",
         "github": {
             "username": "aboul3la",
             "repo": "Sublist3r"
         },
         "link": null
-    }  
-    ,{
+    },{
         "name": "Gobuster",
         "description": "Directory/File, DNS and VHost busting tool written in Go",
         "type": "Awesome",
-        "category": "Reconnaisance",
+        "category": "Enumeration",
         "github": {
             "username": "OJ",
             "repo": "gobuster"
@@ -135,7 +125,7 @@
         "name": "Nikto",
         "description": "Nikto web server scanner",
         "type": "Awesome",
-        "category": "Reconnaisance",
+        "category": "Enumeration",
         "github": {
             "username": "sullo",
             "repo": "nikto"
@@ -143,7 +133,7 @@
         "link": null
     },{
         "name": "AutoRecon",
-        "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
+        "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services",
         "type": "Awesome",
         "category": "Reconnaisance",
         "github": {
@@ -153,7 +143,7 @@
         "link": null
     },{
         "name": "SecLists",
-        "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
+        "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more",
         "type": "Awesome",
         "category": "Enumeration",
         "github": {
@@ -196,7 +186,7 @@
     }
     ,{
         "name": "SSH-Private-Key-Looting-Wordlists",
-        "description": "SSH Private Key Looting Wordlists. A collection of wordlists to aid in locating or brute-forcing SSH private key file names.",
+        "description": "SSH Private Key Looting Wordlists. A collection of wordlists to aid in locating or brute-forcing SSH private key file names",
         "type": "Awesome",
         "category": "Resource",
         "github": {
@@ -207,7 +197,7 @@
     }
     ,{
         "name": "Metasploit",
-        "description": "Metasploit framework.",
+        "description": "Metasploit framework",
         "type": "Awesome",
         "category": "Exploitation",
         "github": {
@@ -247,8 +237,195 @@
             "repo": "ffuf"
         },
         "link": null
+    },{
+        "name": "Subfinder",
+        "description": "Fast passive subdomain enumeration tool",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "projectdiscovery",
+            "repo": "subfinder"
+        },
+        "link": null
+    },{
+        "name": "Masscan",
+        "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "robertdavidgraham",
+            "repo": "masscan"
+        },
+        "link": null
+    },{
+        "name": "Nmap",
+        "description": "Nmap - the Network Mapper. Github mirror of official SVN repository",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "nmap",
+            "repo": "nmap"
+        },
+        "link": null
+    },{
+        "name": "EyeWitness",
+        "description": "EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "RedSiege",
+            "repo": "EyeWitness"
+        },
+        "link": null
+    },{
+        "name": "LinkFinder",
+        "description": "A python script that finds endpoints in JavaScript files",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "GerbenJavado",
+            "repo": "LinkFinder"
+        },
+        "link": null
+    },{
+        "name": "ParamSpider",
+        "description": "Mining URLs from dark corners of Web Archives for bug hunting/fuzzing/further probing",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "devanshbatham",
+            "repo": "ParamSpider"
+        },
+        "link": null
+    },{
+        "name": "XSStrike",
+        "description": "Most advanced XSS scanner",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "s0md3v",
+            "repo": "XSStrike"
+        },
+        "link": null
+    },{
+        "name": "Sqlmap",
+        "description": "Automatic SQL injection and database takeover tool",
+        "type": "Awesome",
+        "category": "Exploitation",
+        "github": {
+            "username": "sqlmapproject",
+            "repo": "sqlmap"
+        },
+        "link": null
+    },{
+        "name": "Sqlmap",
+        "description": "This tool generates gopher link for exploiting SSRF and gaining RCE in various servers",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "tarunkant",
+            "repo": "Gopherus"
+        },
+        "link": null
+    },{
+        "name": "LFISuite",
+        "description": "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "D35m0nd142",
+            "repo": "LFISuite"
+        },
+        "link": null
+    },{
+        "name": "Dalfox",
+        "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "hahwul",
+            "repo": "dalfox"
+        },
+        "link": null
+    },{
+        "name": "Oralyzer",
+        "description": "Open Redirection Analyzer",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "r0075h3ll",
+            "repo": "Oralyzer"
+        },
+        "link": null
+    },{
+        "name": "Httpx",
+        "description": "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "projectdiscovery",
+            "repo": "httpx"
+        },
+        "link": null
+    },{
+        "name": "Kiterunner",
+        "description": "Contextual Content Discovery Tool",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "assetnote",
+            "repo": "kiterunner"
+        },
+        "link": null
+    },{
+        "name": "Gau",
+        "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "lc",
+            "repo": "gau"
+        },
+        "link": null
+    },{
+        "name": "AWSBucketDump",
+        "description": "Security Tool to Look For Interesting Files in S3 Buckets",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "jordanpotti",
+            "repo": "AWSBucketDump"
+        },
+        "link": null
+    },{
+        "name": "CMSeeK",
+        "description": "CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "Tuhinshubhra",
+            "repo": "CMSeeK"
+        },
+        "link": null
+    },{
+        "name": "Wafw00f",
+        "description": "WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "EnableSecurity",
+            "repo": "wafw00f"
+        },
+        "link": null
+    },{
+        "name": "Git-dumper",
+        "description": "A tool to dump a git repository from a website",
+        "type": "Awesome",
+        "category": "Enumeration",
+        "github": {
+            "username": "arthaud",
+            "repo": "git-dumper"
+        },
+        "link": null
     }
-
-    
-    
 ]
