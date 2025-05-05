@@ -12,7 +12,7 @@ pub(crate) fn Hero() -> Element {
                         }
                         h3 { class: "text-[1.25em] dark:text-white font-light text-ghdarkmetal max-w-screen-sm md:max-w-screen-md md:text-left text-center flex flex-col",
                             span { class: "max-w-screen-md leading-loose",
-                                "converse.apps@gmail.com"                                
+                                "conversed.apps@gmail.com"                                
                             }
                         }
                         div { class: "pt-8 lg:pt-16 text-[1em] flex flex-row space-x-4 mx-auto lg:mx-0 justify-center lg:justify-start",
